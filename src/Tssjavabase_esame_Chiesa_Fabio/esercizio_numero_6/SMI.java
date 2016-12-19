@@ -22,7 +22,7 @@ public class SMI {
         this.account = account;
         this.rubrica = new ArrayList<Utente>();
         this.inviati = new ArrayList<Messaggio>();
-        ArrayList<Messaggio>;
+        this.ricevuti = new ArrayList<Messaggio>();
     }
     
     public SMI registrazione(Utente utente){//possibilità di registrarsi
@@ -30,8 +30,8 @@ public class SMI {
         return smi;
     }
     
-    public void inviaMessaggio{
-    Messaggio messaggio
+    public void inviaMessaggio(){
+    Messaggio messaggio = new Messaggio(mittente, destinatario, testo);
 }
 
 •
